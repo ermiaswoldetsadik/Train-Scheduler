@@ -99,7 +99,7 @@ database.ref().on("child_added", function(childSnapshot) {
 	console.log("Next arrival: " + nextArrival);
 
 	// add each train's data into the table
-	$("#new-train").append("<tr><td>" + trainName + "</td><td>" + trainDestination + "</td><td>" + "Every " + trainFrequency + " min" + "</td><td>" + nextArrival + "</td><td>" + minutesAway + " min" + "</td></tr>");
+	$("#new-train").append("<tr><td>" + trainName + "</td><td>" + trainDestination + "</td><td>" + "Every " + trainFrequency + " min" + "</td><td>" + nextArrival + "</td><td>");
 }, function(errorObject) {
 	console.log("Errors handled: " + errorObject.code);
 });
