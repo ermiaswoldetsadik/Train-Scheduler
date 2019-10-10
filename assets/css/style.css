@@ -1,12 +1,23 @@
-h4{
+h4 {
     color: red;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+h1 {
+    color:black;
+    text-shadow: 4px 4px 1px #CCCCCC;
+    
 }
 h5{
     color: white;
 }
+
 tr{
     color: black;
 }
 .form-group{
     color: black;
 }
+body{
+    background: url(../images/train.png) no-repeat center;
+    background-size: cover;
+} 
