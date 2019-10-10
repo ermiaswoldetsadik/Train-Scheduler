@@ -13,10 +13,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 </head>
 
-<body>
+<body background="">
 	<header>
 		<h1 class="title text-center">Worldwide Railways</h1>
-		<p class="header-text text-center">Scheduler for the world's most legendary trains</p>
+		
 	</header>
 
 	<h4 class="time-text text-center">THE CURRENT TIME IS: <span id="currentTime"></span></h4>
@@ -25,7 +25,7 @@
 		<div class="col-sm-12 col-lg-9">
 			<div class="card border-dark">
 				<div class="card-heading bg-dark">
-					<h4 class="card-title">Current Train Schedule</h4>
+					<h5 class="card-title">Train Schedule</h5>
 				</div>
 				<div class="card-body">
 					<table class="table table-hover" id="train-schedule">
@@ -33,9 +33,8 @@
 							<tr>
 								<th>Train Name</th>
 								<th>Destination</th>
-								<th>Frequency</th>
-								<th>Next Arrival</th>
-								<th>Minutes Away</th>
+								<th>Frequency (min)</th>
+								<th>First Train Time (Military Time)</th>
 							</tr>
 						</thead>
 						<tbody id="new-train">
@@ -48,7 +47,7 @@
 		<div class="col-sm-12 col-lg-3">
 			<div class="card border-dark">
 				<div class="card-heading bg-dark">
-					<h4 class="card-title">Add Train</h4>
+					<h5 class="card-title">Find Train</h5>
 				</div>
 				<div class="card-body">
 					<form>
